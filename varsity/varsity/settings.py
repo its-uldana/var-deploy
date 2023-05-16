@@ -62,9 +62,9 @@ ROOT_URLCONF = 'varsity.urls'
 
 CORS_ALLOW_ALL_ORIGINS = True
 SECURE_CROSS_ORIGIN_OPENER_POLICY = None
-CORS_ALLOW_ALL_ORIGINS = [
-    'http://uldana.pythonanywhere.com/'
-]
+# CORS_ALLOW_ALL_ORIGINS = [
+#     'http://uldana.pythonanywhere.com/'
+# ]
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
