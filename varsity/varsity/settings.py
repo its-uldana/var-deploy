@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-@5o_dbn_!mi^q+^7be@zf6s$1b_k&qd#et_)5dl0t!oi*okp1-
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'uldana.pythonanywhere.com/'
+    'uldana.pythonanywhere.com'
 ]
 
 
@@ -61,6 +61,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'varsity.urls'
 
 CORS_ALLOW_ALL_ORIGINS = True
+SECURE_CROSS_ORIGIN_OPENER_POLICY = None
 CORS_ALLOW_ALL_ORIGINS = [
     'http://uldana.pythonanywhere.com/'
 ]
